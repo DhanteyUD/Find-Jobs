@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.Header {
+  background: #06061ff5;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Header > h1 {
+  text-align: left;
+  margin-left: 10%;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,128 @@
+.post-job-container {
+  width: 70%;
+  background: #e5e5e5;
+  padding: 25px 40px;
+  margin: auto;
+}
+.post-job-container > form {
+  background: #fcfcfc;
+  padding: 25px 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.3);
+}
+.fa-times {
+  color: #eb1414;
+  width: 0;
+  margin-left: 100%;
+  font-size: 25px;
+}
+.post-job-title {
+  color: #06061ff5;
+  font-weight: 600;
+  margin-bottom: 10px;
+  word-spacing: 5px;
+  font-size: 30px;
+}
+.post-job-header > p {
+  font-size: 16px;
+}
+.job-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #303030;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.job-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 0 25px;
+  background-color: #e5e5e5;
+}
+.job-input-select {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  background-color: #e5e5e5;
+}
+.job-description-input {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+}
+.post-job-btn {
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #06061ff5;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.post-job-btn:hover {
+  background-color: #5e8b09;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.select {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+
+  float: left;
+  min-width: 200px;
+  margin: 50px 33%;
+}
+
+.selectdiv:after {
+  content: '\f078';
+  font: normal normal normal 17px/1 FontAwesome;
+  color: #0ebeff;
+  right: 11px;
+  top: 6px;
+  height: 34px;
+  padding: 15px 0px 0px 8px;
+  border-left: 1px solid #0ebeff;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+  display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #0ebeff;
+  -ms-word-break: normal;
+  word-break: normal;
+}

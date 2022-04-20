@@ -1,0 +1,130 @@
+.loginSignUpContainer {
+  height: 100%;
+}
+.rAndE {
+  color: #5e8b09;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.create-text {
+  padding-top: 3%;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.user-card {
+  display: flex;
+  flex-direction: column;
+  height: 26rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  background-color: cornsilk;
+  width: 25rem;
+  border-radius: 0.5rem;
+  margin-right: 0.2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 7%), 0 3px 1px -2px rgb(0 0 0 / 10%),
+    0 1px 5px 0 rgb(0 0 0 / 6%);
+  font-family: 'Montserrat', sans-serif;
+}
+.employer-card {
+  display: flex;
+  margin-right: 5rem;
+  flex-direction: column;
+  height: 26rem;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  border-radius: 0.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 5%;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 7%), 0 3px 1px -2px rgb(0 0 0 / 10%),
+    0 1px 5px 0 rgb(0 0 0 / 6%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  padding: 1rem;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.user-card > p,
+.employer-card > p {
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  color: grey;
+  margin-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.rAndE-button {
+  background-color: #06061f;
+  border: none;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 8px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 22rem;
+  transition: 0.3s;
+}
+.rAndE-button:hover {
+  background-color: #5e8b09;
+  color: white;
+  transition: 0.3s;
+}
+.login {
+  margin-right: 1rem;
+}
+.signUp {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30rem;
+  }
+
+  .headerComponent {
+    width: 100%;
+  }
+  .loginSignUpContainer {
+    width: 100%;
+  }
+  div > .loginSignUpContainer {
+    width: 100%;
+  }
+  .card-container {
+    width: 70%;
+  }
+
+  .employer-card {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 2rem;
+    margin-right: 15rem;
+  }
+  .user-card {
+    margin-right: 5rem;
+  }
+}

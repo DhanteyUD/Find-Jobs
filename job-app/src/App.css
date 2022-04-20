@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+#root {
+  background-color: #e5e5e5;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.App {
+  text-align: center;
+  background-color: #e5e5e5;
+}

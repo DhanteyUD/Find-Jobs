@@ -1,0 +1,158 @@
+/* login page styling */
+.interview-section {
+  background-color: #06061ff5;
+  padding-left: 60px;
+  height: 100vh;
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+  div.whole-login-page {
+    background: #030303f5;
+  }
+  .interview-section {
+    background-color: #06061ff5;
+    height: 100%;
+    margin-top: -10px;
+  }
+  .interviewlogo > img {
+    height: 200px;
+    margin-left: -25px;
+  }
+  .interview-title {
+    margin-top: -90px;
+    color: #e5e5e5;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+}
+
+/* company log styling */
+.company-logo {
+  padding-top: 40px;
+}
+
+/* log in interview section styling */
+.interview-title {
+  color: #e5e5e5;
+  margin-top: 90px;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.login-title {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+.password-label,
+.email-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+/* login form styling */
+.login {
+  color: #06061ff5;
+  background-color: #e5e5e5;
+  height: 100vh;
+  padding-left: 100px;
+  width: 100%;
+}
+
+/* button styling */
+.login-btn {
+  height: 40px;
+  width: 110px;
+  font-size: 18px;
+  border: none;
+  background-color: #5e8b09;
+  border-radius: 25px;
+  padding: 10px, 10px;
+  margin-top: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+.signup-txt {
+  margin-top: -30px;
+  margin-left: 140px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: default;
+}
+.signup-btn {
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding: 10px, 10px;
+  margin-top: -80px;
+  margin-left: 310px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ff0000;
+  text-align: center;
+  vertical-align: middle;
+  transition: 0.4s;
+}
+
+.login-btn:hover {
+  background-color: #06061ff5;
+  color: #e5e5e5;
+  transition: 0.3s;
+}
+.signup-btn:hover {
+  color: #5e8b09;
+  transition: 0.4s;
+}
+/* log in form styling */
+#user-mail.Email,
+#user-password.Password {
+  width: 80%;
+  height: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.email {
+  font-size: 10px;
+}
+.circleflex {
+  display: flex;
+  justify-content: space-between;
+}
+.circle-img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.circle-two {
+  margin-left: -30px;
+}
+.circle-three {
+  margin-top: 5px;
+  margin-left: -70px;
+}
+
+#password-section {
+  margin-top: 30px;
+}
+/* media queries */
+@media only screen and (max-width: 320px) {
+  .log-in-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .log-in-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+}

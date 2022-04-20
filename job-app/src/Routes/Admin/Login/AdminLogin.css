@@ -1,0 +1,131 @@
+/* login page styling */
+.admin-interview-section {
+  background: #0f4a7b;
+  padding-left: 60px;
+  height: 100vh;
+}
+@media screen and (max-width: 960px) {
+  div.admin-whole-login-page {
+    background: #030303f5;
+  }
+  .admin-interview-section {
+    background-color: #030303f5;
+    height: 100%;
+    margin-top: -10px;
+  }
+  .admin-interviewlogo > img {
+    height: 200px;
+    margin-left: -25px;
+  }
+  .admin-interview-title {
+    margin-top: -90px;
+    color: #e5e5e5;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+}
+
+/* company log styling */
+.admin-company-logo {
+  padding-top: 40px;
+}
+.admin-for-employers {
+  margin-top: 45px;
+  margin-left: -120px;
+  position: absolute;
+}
+
+/* log in interview section styling */
+.admin-interview-title {
+  color: #e5e5e5;
+  margin-top: 90px;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.admin-login-title {
+  word-spacing: 5px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-weight: 600;
+}
+.admin-password-label,
+.admin-email-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+/* login form styling */
+.admin-login {
+  color: #06061ff5;
+  background-color: #e5e5e5;
+  height: 100vh;
+  padding-left: 100px;
+  width: 100%;
+}
+
+/* button styling */
+.admin-login-btn {
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  background-color: #0f4a7b;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.admin-login-btn:hover {
+  background-color: #5e8b09;
+  color: #fff;
+  transition: 0.3s;
+}
+/* log in form styling */
+#admin-user-mail.admin-Email,
+#admin-user-password.admin-Password {
+  width: 80%;
+  height: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-email {
+  font-size: 10px;
+}
+.admin-circleflex {
+  display: flex;
+  justify-content: space-between;
+}
+.admin-circle-img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#admin-password-section {
+  margin-top: 30px;
+}
+/* media queries */
+@media only screen and (max-width: 320px) {
+  .admin-log-in-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .admin-log-in-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+}

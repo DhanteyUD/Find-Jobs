@@ -1,0 +1,51 @@
+.apply-job-container {
+  width: 70%;
+  background: #e5e5e5;
+  padding: 25px 40px;
+  margin: auto;
+  height: 1200px;
+}
+.apply-job-Form {
+  background: #fcfcfc;
+  padding: 25px 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.3);
+  height: 1000px;
+  width: 60%;
+  color: #0F4A7B;
+  ;
+  margin: auto;
+}
+
+.applicationInput {
+  width: 100%;
+  height: 3rem;
+}
+
+.label {
+  padding: 0.75rem 0;
+}
+
+.upload {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.upload .cv-option {
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.upload .Application-btn {
+  background: #0F4A7B;
+  color: #e5e5e5;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+}
+
+.cv-upload {
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+}
