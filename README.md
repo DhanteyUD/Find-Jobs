@@ -1,3 +1,3 @@
-# Job Search App
+# Find Jobs
 
 > Still under developement...
